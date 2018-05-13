@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/settings">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:id = "@+id/settingstxt"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="-20dp" />
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="140dp"
+        android:background="@drawable/settings_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="sound on"
+        android:id = "@+id/bsound"
+        android:textSize="38dp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="140dp"
+        android:background="@drawable/settings_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="edit profile"
+        android:id = "@+id/beditprofile"
+        android:textSize="38dp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="140dp"
+        android:background="@drawable/settings_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="terminate"
+        android:id = "@+id/bterminate"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="140dp"
+        android:background="@drawable/settings_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="credit"
+        android:id = "@+id/bcredit"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:background="@drawable/back_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:id = "@+id/bback"
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

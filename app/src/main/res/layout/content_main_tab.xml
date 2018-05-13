@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUESS NEXT"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:id = "@+id/gntxt"/>
+
+    <Button
+        android:layout_width="465dp"
+        android:layout_height="150dp"
+        android:background="@drawable/start_screen_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id = "@+id/bstartGame"
+        android:allowUndo="false"
+        android:focusable="false"
+        android:text="start game"
+        android:textSize="40dp"
+
+        android:textColor="#FFFFFF"
+        android:paddingBottom="11dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="465dp"
+        android:layout_height="150dp"
+        android:background="@drawable/start_screen_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="-18dp"
+        android:id = "@+id/bhighScores"
+        android:text="highscores"
+        android:textSize="40dp"
+
+        android:textColor="#FFFFFF"
+        android:paddingBottom="11dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="465dp"
+        android:layout_height="150dp"
+        android:background="@drawable/start_screen_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="-18dp"
+        android:id = "@+id/bhowToPlay"
+        android:text="how to play"
+        android:textSize="40dp"
+
+        android:textColor="#FFFFFF"
+        android:paddingBottom="11dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="465dp"
+        android:layout_height="150dp"
+        android:background="@drawable/start_screen_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="-18dp"
+        android:id = "@+id/bsettings"
+        android:text="settings"
+        android:textSize="40dp"
+
+        android:textColor="#FFFFFF"
+        android:paddingBottom="11dp"
+        android:layout_marginLeft="-10dp" />
+
+    <Button
+        android:layout_width="465dp"
+        android:layout_height="150dp"
+        android:background="@drawable/start_screen_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="-18dp"
+        android:id = "@+id/bquit"
+        android:text="exit"
+        android:textSize="40dp"
+
+        android:textColor="#FFFFFF"
+        android:paddingBottom="11dp"
+        android:layout_marginLeft="-10dp" />
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/how_to_play"
+    >
+
+
+  <RelativeLayout
+      android:layout_width="310dp"
+      android:layout_height="420dp"
+
+
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="0dp"
+      android:layout_marginBottom="0dp"
+      android:id="@+id/relativeLayout">
+
+      <TextView
+          android:layout_width="280dp"
+          android:layout_height="wrap_content"
+          android:text="This game is developed for learning purpose. There are three modes. Questions will arrive with 3 options. 10 seconds for each. There will be a life line button if the player press this button one wrong answer will turn into red."
+          android:id="@+id/textView14"
+          android:layout_marginTop="33dp"
+          android:textColor="#FFFFFF"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:id="@+id/imageView7"
+          android:background="@drawable/btn_heart"
+          android:layout_above="@+id/imageView9"
+          android:layout_toLeftOf="@+id/imageView10"
+          android:layout_toStartOf="@+id/imageView10"
+          android:layout_marginBottom="7dp" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:id="@+id/imageView8"
+
+          android:layout_alignBottom="@+id/textView14"
+          android:layout_alignLeft="@+id/textView14"
+          android:layout_alignStart="@+id/textView14"
+          android:layout_marginLeft="55dp"
+          android:layout_marginStart="55dp"
+          android:layout_marginBottom="-5dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textStyle="bold"
+          android:id="@+id/textView15"
+          android:textSize="9dp"
+          android:textColor="#FFFFFF"
+          android:layout_alignBottom="@+id/textView14"
+          android:layout_alignLeft="@+id/imageView8"
+          android:layout_alignStart="@+id/imageView8"
+          android:layout_marginLeft="9dp"
+          android:layout_marginBottom="2dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="\nLifeLine Button\n\nInitially all buttons will be blue"
+          android:id="@+id/textView16"
+          android:layout_below="@+id/textView14"
+          android:layout_alignLeft="@+id/textView14"
+          android:layout_alignStart="@+id/textView14"
+          android:textColor="#FFFFFF"/>
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:id="@+id/imageView9"
+          android:background="@drawable/btn_regular"
+          android:layout_alignBottom="@+id/textView16"
+          android:layout_toRightOf="@+id/textView16"
+          android:layout_toEndOf="@+id/textView16"
+          android:layout_marginTop="0dp"
+          android:layout_marginBottom="-3dp"
+          android:layout_marginLeft="2dp" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:id="@+id/imageView10"
+          android:background="@drawable/btn_regular"
+          android:layout_alignBottom="@+id/imageView9"
+          android:layout_toRightOf="@+id/imageView9"
+          android:layout_toEndOf="@+id/imageView9"
+          android:layout_marginLeft="2dp" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:id="@+id/imageView11"
+          android:background="@drawable/btn_regular"
+          android:layout_alignBottom="@+id/imageView10"
+          android:layout_toRightOf="@+id/imageView10"
+          android:layout_toEndOf="@+id/imageView10"
+          android:layout_marginLeft="2dp" />
+
+      <TextView
+          android:layout_width="280dp"
+          android:layout_height="wrap_content"
+          android:text="\nPlayers have to choose correct answer. If the answer is correct the button will turn into green and 10 points will be rewarded. In case of lifeline 5 points will be deducted."
+          android:textColor="#FFFFFF"
+          android:id="@+id/textView17"
+          android:layout_below="@+id/imageView10"
+          android:layout_alignLeft="@+id/textView16"
+          android:layout_alignStart="@+id/textView16" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:id="@+id/imageView12"
+          android:background="@drawable/btn_green"
+          android:layout_above="@+id/textView18"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="-4dp" />
+
+      <TextView
+          android:layout_width="280dp"
+          android:layout_height="wrap_content"
+          android:text="\nIn case fo wrong answer the button will turn into red and the correct answer will turn into green. There will be a timer to count the time needed to answer. Scores will be compared with all registered players."
+          android:textColor="#FFFFFF"
+          android:id="@+id/textView18"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Correct Button"
+          android:id="@+id/textView13"
+          android:textColor="#FFFFFF"
+          android:layout_above="@+id/textView18"
+          android:layout_alignLeft="@+id/textView18"
+          android:layout_alignStart="@+id/textView18" />
+
+
+  </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView19"
+        android:layout_marginBottom="22dp"
+        android:textSize="30dp"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/game_moods">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME MODES"
+        android:textColor="#FFFFFF"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:id = "@+id/gamemodestxt"
+        android:layout_marginLeft="-35dp" />
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/game_mode_button"
+        android:text="normal"
+        android:textColor="#FFFFFF"
+        android:id = "@+id/bnormal"
+        android:layout_marginTop="70dp"
+        android:textSize="43dp"
+        android:paddingBottom="9dp" />
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/game_mode_button"
+        android:text="marathon"
+        android:textColor="#FFFFFF"
+        android:id = "@+id/bmarathon"
+        android:layout_marginTop="25dp"
+        android:textSize="43dp"
+        android:paddingBottom="9dp" />
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/game_mode_button"
+        android:text="extreme"
+        android:textColor="#FFFFFF"
+        android:id = "@+id/bextreme"
+        android:layout_marginTop="25dp"
+        android:textSize="43dp"
+        android:paddingBottom="9dp" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:textColor="#FFFFFF"
+        android:id = "@+id/bback"
+        android:layout_marginTop="58dp" />
+
+
+</LinearLayout>

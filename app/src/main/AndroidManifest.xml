@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="guessnext.noesis.guessnext">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="guessnext.noesis.NormalMode"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_start_game"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="guessnext.noesis.NormalMode" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="guessnext.noesis.MarathonMode"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_start_game"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="guessnext.noesis.MarathonMode" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="guessnext.noesis.ExtremeMode"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_start_game"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="guessnext.noesis.ExtremeMode" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="guessnext.noesis.HowToPlay"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_how_to_play"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="guessnext.noesis.HowToPlay" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="guessnext.noesis.HighScore"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="guessnext.noesis.HighScore" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="guessnext.noesis.GameModes"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="guessnext.noesis.GameModes" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="guessnext.noesis.Settings"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="guessnext.noesis.Settings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="guessnext.noesis.EditProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="guessnext.noesis.EditProfile" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="guessnext.noesis.GameOver"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="guessnext.noesis.GameOver" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="guessnext.noesis.Registration"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_high_score"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="guessnext.noesis.Registration" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

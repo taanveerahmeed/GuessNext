@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/game_play"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="15dp">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="750dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:layout_height="20dp"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCORE:"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:gravity="left"
+            android:id = "@+id/scr"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#63A744"
+            android:textSize="22dp"
+            android:gravity="left"
+            android:id = "@+id/score"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:layout_width="38dp"
+            android:layout_height="20dp"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:id = "@+id/tm"
+
+            android:layout_marginTop="20dp"
+            android:textSize="22dp"
+            android:layout_marginLeft="180dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00.00"
+            android:textColor="#63A744"
+            android:gravity="center"
+            android:id = "@+id/timer"
+            android:layout_marginTop="20dp"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="22dp"
+            android:layout_height="30dp"></LinearLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:src="@drawable/heart_life"
+            android:id= "@+id/lifeone"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:src="@drawable/heart_life"
+            android:id= "@+id/lifetwo"
+            android:layout_marginTop="20dp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:src="@drawable/heart_life"
+            android:id= "@+id/lifethree"
+            android:layout_marginTop="21dp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:src="@drawable/heart_life"
+            android:id= "@+id/lifefour"
+            android:layout_marginTop="20dp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:src="@drawable/heart_life"
+            android:id= "@+id/lifefive"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="30dp"></LinearLayout>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/counter_bg"
+            android:gravity="center"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="145dp"
+            android:id = "@+id/countertxt"
+            android:textColor="#FFFFFF"
+            android:text=""
+            android:textSize="32dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="680dp"
+        android:layout_height="180dp"
+        android:background="@drawable/question_box"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-10dp">
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:id = "@+id/question"
+            android:layout_gravity="center"
+            android:text=""
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+
+
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="690dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="@drawable/answer_regular"
+        android:layout_marginLeft="35dp"
+        android:weightSum="1"
+        android:id = "@+id/layoutA"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="35dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="45dp"
+            android:id = "@+id/ansa"/>
+
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text=""
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:id = "@+id/optionA"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="13dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="690dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="@drawable/answer_regular"
+        android:layout_marginLeft="35dp"
+        android:weightSum="1"
+        android:id = "@+id/layoutB">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="35dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="45dp"
+            android:id = "@+id/ansb"/>
+
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text=""
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:id = "@+id/optionB"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="13dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="690dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="@drawable/answer_regular"
+        android:layout_marginLeft="35dp"
+        android:weightSum="1"
+        android:id = "@+id/layoutC"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="35dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="45dp"
+            android:id = "@+id/ansc"/>
+
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text=""
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:id = "@+id/optionC"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="13dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="0dp">
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"></LinearLayout>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="A"
+            android:background="@drawable/btn_regular"
+            android:textSize="55dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            android:id = "@+id/buttonA"
+            android:layout_marginTop="-4dp"
+            android:layout_marginLeft="60dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="B"
+            android:background="@drawable/btn_regular"
+            android:textSize="55dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            android:id = "@+id/buttonB"
+            android:layout_marginTop="-4dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_regular"
+            android:text="C"
+            android:textSize="55dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            android:id = "@+id/buttonC"
+            android:layout_marginTop="-4dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_heart"
+            android:textSize="50dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:id = "@+id/buttonLife"
+            android:layout_marginTop="-4dp"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:layout_marginTop="40dp"
+        android:id = "@+id/back"/>
+
+
+</LinearLayout>

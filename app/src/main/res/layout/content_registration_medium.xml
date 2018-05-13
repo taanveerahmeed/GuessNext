@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/high_score">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:id = "@+id/registrationtxt"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-20dp" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edit_input"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text = "FIRST NAME"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:id = "@+id/regfrstnametxt"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="245dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:id = "@+id/regfrstnameinput"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edit_input"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text = "LAST NAME"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:id = "@+id/reglastnametxt"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="245dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:id = "@+id/reglastnameinput"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:background="@drawable/update_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:text="register"
+        android:id = "@+id/bregister"
+        android:paddingTop="0dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="-5dp" />
+
+</LinearLayout>

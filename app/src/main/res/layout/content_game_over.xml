@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/game_over">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/game_over_content"
+        android:layout_marginTop="235dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW SCORE"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id = "@+id/newscoretxt"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:text="0"
+            android:gravity="center"
+            android:textColor="#63A744"
+            android:textSize="15dp"
+            android:id = "@+id/newscore"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/game_over_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIGHEST SCORE"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id = "@+id/highscoretxt"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:text="0"
+            android:gravity="center"
+            android:textColor="#63A744"
+            android:textSize="15dp"
+            android:id = "@+id/highscore"/>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="300dp"
+       android:layout_height="60dp"
+       android:layout_gravity="center"
+       android:background="@drawable/game_over_content"
+       android:layout_marginTop="0dp"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="GLOBAL HIGHEST"
+           android:layout_gravity="center"
+           android:textSize="18dp"
+           android:textColor="#FFFFFF"
+           android:textStyle="bold"
+           android:id = "@+id/ghighscoretxt"
+           android:layout_marginTop="9dp" />
+
+       <TextView
+           android:layout_width="250dp"
+           android:layout_height="20dp"
+           android:layout_gravity="center"
+           android:text="0"
+           android:gravity="center"
+           android:textColor="#63A744"
+           android:textSize="15dp"
+           android:id = "@+id/ghighscore"
+           android:layout_marginTop="-2dp" />
+
+
+   </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/menu_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:id = "@+id/bmenu"/>
+
+</LinearLayout>
